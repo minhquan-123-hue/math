@@ -5,7 +5,7 @@ friction_head = 2.5  # m, assumed loss due to friction
 volume_flow_rate = 3.6  # m^3/hour
 rho = 1000  # kg/m^3
 gravity = 9.8  # m/s^2
-pump_efficiency = 0.8  # 80%, example value; replace with the real efficiency
+pump_efficiency = 0.6  #thay với dự liệu thật 
 
 def M_dot(Q_hour):
     Q_second = Q_hour / 3600
